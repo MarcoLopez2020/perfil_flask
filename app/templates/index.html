@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page with Sidenav</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        /* Sidenav styles */
+        .sidenav {
+            height: 100%;
+            width: 250px;
+            position: fixed;
+            left: 0;
+            top: 0;
+            background-color: #111;
+            overflow-x: hidden;
+            padding-top: 20px;
+        }
+
+        .sidenav a {
+            padding: 10px 15px;
+            text-decoration: none;
+            font-size: 18px;
+            color: white;
+            display: block;
+            transition: 0.3s;
+        }
+
+        .sidenav a:hover {
+            background-color: #575757;
+        }
+
+        /* Main content styles */
+        .main {
+            margin-left: 260px;
+            padding: 20px;
+        }
+
+        section {
+            padding: 50px 0;
+        }
+
+        #inicio {
+            background-color: #f4f4f4;
+        }
+
+        #quien-soy {
+            background-color: #ddd;
+        }
+
+        #contactos {
+            background-color: #bbb;
+        }
+
+        #juego {
+            background-color: #999;
+        }
+
+        header {
+            text-align: center;
+            padding: 50px 20px;
+            background: linear-gradient(90deg, #4caf50, #8bc34a);
+            color: white;
+        }
+
+        header h1 {
+            font-size: 3em;
+        }
+
+        header p {
+            font-size: 1.2em;
+        }
+    </style>
+</head>
+<body>
+    <!-- Sidenav -->
+    <div class="sidenav">
+        <a href="#inicio">Inicio</a>
+        <a href="#quien-soy">Quién soy</a>
+        <a href="#contactos">Contactos</a>
+        <a href="#juego">Juego</a>
+    </div>
+
+    <!-- Main content -->
+    <div class="main">
+        <!-- Landing header -->
+        <header>
+            <h1>Bienvenido a mi página</h1>
+            <p>Explora las secciones para saber más</p>
+        </header>
+
+        <!-- Sections -->
+        <section id="inicio">
+            <h2>Inicio</h2>
+            <p>Esta es la sección de inicio donde encontrarás una introducción general.</p>
+        </section>
+
+        <section id="quien-soy">
+            <h2>Quién soy</h2>
+            <p>Conoce más sobre mí en esta sección.</p>
+        </section>
+
+        <section id="contactos">
+            <h2>Contactos</h2>
+            <p>Puedes comunicarte conmigo a través de los medios en esta sección.</p>
+        </section>
+
+        <section id="juego">
+            <h2>Juego</h2>
+            <p>¡Aquí puedes encontrar un juego interactivo o información sobre entretenimiento!</p>
+        </section>
+    </div>
+</body>
+</html>
